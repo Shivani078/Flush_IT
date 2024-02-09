@@ -1,0 +1,709 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+
+  }
+  
+  header {
+  background: linear-gradient(to right, #d10f3d, #f5f0f1); /* Adjust colors as needed */
+  color: #fff;
+  padding: 40px 0;
+}
+
+
+  
+  header h1 {
+    margin: 0;
+    color: rgb(238, 232, 232);
+    margin-left: 40px;
+    
+      text-align: left; /* Align text to the left */
+      margin-left: 45px;
+  
+   
+      font-family: Wedges, sans-serif; /* Change the font family to "Wedges" */
+  
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last list item */
+  }
+  nav ul li:first-child a {
+    margin-left: 1090px; /* Add margin-left to the first list item's anchor */
+  }
+  
+  nav ul li a {
+    color: #0b0b0b;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .search-section, .results-section {
+    margin-bottom: 20px;
+  }
+  
+  .search-section form {
+    display: flex;
+  }
+  
+  .search-section input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .search-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .results-section .washroom-card {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .login-box {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b); /* Gradient background */
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-box form label,
+  .login-box form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: black;
+  }
+  
+  .login-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-box p {
+    margin-top: 20px;
+  }
+  
+ /* Existing CSS styles remain the same */
+
+.login-section form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b); /* Gradient background */
+  }
+  
+  .login-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-section input[type="text"],
+  .login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+  }
+  
+  /* Existing CSS styles remain the same */
+
+.login-section button {
+    padding: 10px 30px; /* Adjust padding if needed */
+    background-color: #062241;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 350px; /* Set width to 100% to extend the button across the container */
+    margin-left: 2px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom right, #0e0e0e, #0e0b08); /* Gradient background */
+}
+  
+  
+  .login-section p {
+    margin-top: 10px;
+  }
+  
+ 
+  /* Existing CSS styles remain the same */
+
+.login-section {
+    text-align: center;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 30px;
+  }
+  /* Existing CSS styles remain the same */
+
+.login-section p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-section a {
+    color: #010e1b;
+    text-decoration: none;
+  }
+  /* Existing CSS styles remain the same */
+
+.login-box {
+    background-color: #958989;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-box input[type="text"],
+  .login-box input[type="password"] {
+    width: calc(100% - 22px); /* Subtract padding and border width */
+    padding: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  ng CSS styles remain the same */
+
+.signup-section {
+    text-align: center;
+  }
+  
+  .signup-box {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b); /* Gradient background */
+  }
+  
+  .signup-box label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-box input[type="text"],
+  .signup-box input[type="email"],
+  .signup-box input[type="password"] {
+    width: calc(100% - 22px); /* Subtract padding and border width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-box button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #0e1011; /* Change the background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-box button:hover {
+    background-color: #181b1e;
+  }
+  
+  .signup-section p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  /* Responsive styles */
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+    
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    nav ul li:first-child {
+      margin-right: 0; /* Remove right margin from the first list item */
+    }
+    
+    nav ul li:first-child a {
+      margin-left: 0; /* Remove margin-left from the first list item's anchor */
+    }
+  }
+
+  /* Existing CSS styles remain the same */
+
+.signup-login-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signup-box {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b); /* Gradient background */
+  }
+  .login-box {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signup-box h2,
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-box form label,
+  .signup-box form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-box button {
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: black;
+  }
+  
+  .signup-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .login-box p {
+    margin-top: 20px;
+  }
+  
+  .signup-section {
+    margin-top: 20px; /* Increase the spacing above the signup box */
+  }
+  
+  .login-section {
+    margin-top: 20px; /* Increase the spacing above the login box */
+  }
+  
+
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 16px; /* Adjust the font size as needed */
+
+}
+.col-1{
+    flex-basis: 50%;
+    min-width: 300px;
+    display:flex;
+
+}
+
+.col-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    color: #000;
+    
+}
+.col-1 img {
+  flex: 1; /* Distribute available space equally between images */
+  margin-right: 10px; /* Adjust the margin between images */
+  max-width: 70%;
+  height: auto;
+}
+
+
+
+.col-1 h4 {
+  font-family: "Times New Roman", Times, serif; /* Use Times New Roman font */
+  margin-left: 20px; /* Add space from the left */
+  font-size: 44px; 
+  color: #000;
+}
+
+
+/*------Footer-----*/
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+
+
+.footer p{
+  color: #8a8a8a;
+  
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+ flex: 1;
+ text-align: center;
+}
+
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+border: none;
+background: #b5b5b5;
+height: 1px;
+margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+  
+}
+.glyphicon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+/*------media query for menu-----*/
+
+@media only screen and (max-width: 800px){
+  nav ul{
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background: #333;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+  }
+  nav ul li{
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  nav ul li a{
+      color: #fff;
+  }
+  .glyphicon{
+      display: block;
+      cursor: pointer;
+  }
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+.washroom-card img {
+  width: 550px; /* Adjust the image width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px;
+}
+
+/*----contact----*/
+.Contact .content h2 {
+  text-align: center;
+
+  font-size: 28px; 
+}
+
+
+
+.Contact .content {
+  margin-left: 70px;
+}
+
+.contactForm {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #c3156f;
+  margin-bottom: 20px;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #666;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.contactForm input:focus ~ span,
+.contactForm textarea:focus ~ span,
+.contactForm input:valid ~ span,
+.contactForm textarea:valid ~ span {
+  color: #c3156f;
+  transform: translateY(-20px);
+  font-size: 12px;
+}
+
+.contactForm input[type="submit"] {
+  background-color: #c3156f;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.contactForm input[type="submit"]:hover {
+  background-color: #8127c6;
+}
+
+
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+
+.five {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+}
+
+/* Style for the header */
+.five h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+  text-align: center;
+}
+
+/* Style for sections */
+.five section {
+  margin-bottom: 40px; /* Adjust the bottom margin between sections */
+}
+
+/* Style for section headings */
+.five h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+}
+
+/* Style for paragraph text */
+.five p {
+  font-size: 16px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Adjust the line height as needed */
+}
+
+.results-section img {
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling the form container */
+#filterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling the input fields and labels */
+#filterForm label {
+  margin-bottom: 10px; /* Add space between labels */
+}
+
+#filterForm input[type="text"],
+#filterForm select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+/* Styling the search button */
+#filterForm button.search-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+#filterForm button.search-button:hover {
+  background-color: #0056b3;
+}
+.washroom-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.washroom-card {
+  flex-basis: calc(33.33% - 20px); /* Adjust width as needed */
+  margin-bottom: 20px; /* Adjust margin between cards */
+}
+
+.washroom-details {
+  border: 1px solid #ccc; /* Add border for better visibility */
+  padding: 10px; /* Add padding for spacing */
+  width: 100%; /* Ensure full width */
+}
+
+.washroom-details img {
+  width: 100%; /* Make image responsive */
+}
+
+.washroom-details p {
+  margin: 5px 0; /* Add margin for spacing */
+}
+.washroom-details img {
+  width: 100%; /* Make image responsive */
+  height: 200px; /* Set fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.login-section img {
+  width: 500px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+

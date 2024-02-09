@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlushIT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  
+  
+    <h1>Flush IT!</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/About.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/login.html">Login/Sign up</a></li>
+        
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col-1">
+        <h4>Discover comfort on the go with "Flush IT", your reliable companion for locating clean and accessible restroom facilities effortlessly.</h4>
+        
+      </div>
+      <div class="col-1">
+        <img src="images/7.png">
+       
+      </div>
+      
+    </div>
+  </div>
+</div>
+  </header>
+  <main>
+    <section class="search-section">
+      <h2>Find a Washroom Near You</h2>
+      <form>
+        <input type="text" placeholder="Enter your location">
+        <button type="submit">Search</button>
+      </form>
+     
+    </section>
+    <section class="results-section">
+     <img src="images/Screenshot (949).png">
+      <h2>Search Results</h2>
+      <form id="filterForm">
+        
+      
+        <label for="accessibility">Accessibility Features:</label>
+        <select id="accessibility" name="accessibility">
+          <option value="all">All</option>
+          <option value="wheelchair">Wheelchair accessible</option>
+          <option value="baby">Baby changing station</option>
+        
+        </select>
+      
+        <label for="cleanliness">Cleanliness Rating:</label>
+        <select id="cleanliness" name="cleanliness">
+          <option value="all">All</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+      
+        </select>
+      
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </section>
+    <section class="washroom-cards">
+      <div class="washroom-card">
+        <div class="washroom-details">
+          <img src="images/pic1.jpg">
+          <p>Palika Bazar in Connaught Place, Delhi</p>
+          <p>Availability: Open</p>
+          <p>Cleanliness: 4/5</p>
+          <p>Accessibility: Wheelchair accessible</p>
+          <p>Reviews: "Clean and convenient!"</p>
+        </div>
+      </div>
+      
+      <div class="washroom-card">
+        <div class="washroom-details">
+          <img src="images/pic2.jpg" height="100px">
+          <p>Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001</p>
+          <p>Availability: Closed</p>
+          <p>Cleanliness: 3/5</p>
+          <p>Accessibility: Not wheelchair accessible</p>
+          <p>Reviews: "Needs improvement"</p>
+        </div>
+      </div>
+      
+      <div class="washroom-card">
+        <div class="washroom-details">
+          <img src="images/pic3.jpg" height="100px">
+          <p>Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001</p>
+          <p>Availability: Open</p>
+          <p>Cleanliness: 5/5</p>
+          <p>Accessibility: Wheelchair accessible</p>
+          <p>Reviews: "Excellent facility!"</p>
+        </div>
+      </div>
+    </section>
+    
+     
+  
+  </main>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-----footer----->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and ios mobile phone.</p>
+        <div class="app-logo">
+          <img src="images/store.png">
+        </div>
+      </div>
+      <div class="footer-col-2">
+       
+        <p>Empowering seamless online shopping experiences for customers worldwide.</p>
+      <div class="applogo">
+
+      </div>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+         
+          <li>Blog post</li>
+          <li>Forms</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+
+    </div>
+    <hr>
+    <p class="copyright"> copyright 2024 - Flush IT!</p>
+  </div>
+</div>
+<!-----js for toggle menu------->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "Opx"
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "Opx")
+    {
+      MenuItems.style.maxHeight = "200px"
+    }
+    else{
+      MenuItems.style.maxHeight = "Opx"
+    }
+  }
+</script>
+
+
+
+  </body>
+</html>
+</body>
+</html>
